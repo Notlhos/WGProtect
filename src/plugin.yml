@@ -1,0 +1,5 @@
+main: ru.planet.wgprotect.WGProtect
+name: WGProtect
+author: planet0111
+version: 1.2-re_1.8.8-version
+depend: [WorldGuard, WorldEdit]

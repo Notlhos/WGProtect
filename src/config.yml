@@ -1,0 +1,22 @@
+#Можно и не трогать
+debug: false
+adminRegion:
+    #Регионы, которые могут ломать только игроки из списка allowedUsers
+    blockedRegions: ['spawn']
+    #Регионы, которые плагин игнорирует
+    ignoredRegions: ['mine']
+    #Игроки которым пофиг на запреты
+    allowedUsers: ['planet0111']
+worldEditLimits:
+    #У игроки должно быть право wgprotect.use, иначе работать не будет
+    #Максимальное кол-во блоков для операций WorldEdit
+    #Можно выдать личный лимит через право wgprotect.limit.число
+    defaultLimit: 3000
+messages:
+    #Сообщение о защите региона донатера с правом wgprotect.donate
+    #wgDonate: '&cНа этом регионе стоит максимальная защита. Это регион максимального доната' //Скоро
+    #Сообщение о защите региона из списка blockedRegions
+    wgAdmin: '&cВы не можете ломать этот регион!'
+    #Сообщение о лимите defaultLimit
+    selectError: '&7Нельзя выделять больше &c{limit} &7блоков! У вас же &c{selSize}'
+    weError: '&cКоманды WorldEdit можно использовать только у себя в регионе!'
